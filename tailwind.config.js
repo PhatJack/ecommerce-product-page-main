@@ -17,7 +17,10 @@ export default {
 			fontFamily: {
 				"kumbn-sans": "Kumbh Sans"
 			},
-			
+			fontSize: {
+				"custom-size": "clamp(1.5rem, 1.85rem + 1.2vw,2.65rem)"
+			}
+
 		},
 	},
 	plugins: [],

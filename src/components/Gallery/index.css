@@ -1,0 +1,50 @@
+.mySwiper .swiper-slide-thumb-active {
+	opacity: 0.5;
+}
+
+.mySwiper .swiper-slide-thumb-active::after {
+	content: "";
+	width: 88px;
+	height: 88px;
+	position: absolute;
+	inset: 0;
+	outline: 2px solid hsl(26, 100%, 55%);
+	border-radius: .6rem;
+	z-index: -1;
+}
+
+.mySwiper {
+	width: 100.8%;
+	padding: 3px;
+	left: -2px;
+}
+
+.swiper-button-next {
+	padding: 22px;
+	border-radius: 100rem;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.swiper-button-next::after {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.swiper-button-prev {
+	padding: 22px;
+	border-radius: 100rem;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.swiper-button-prev::after {
+	font-size: 20px;
+	font-weight: 700;
+}
